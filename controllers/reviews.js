@@ -23,4 +23,4 @@ module.exports.delete=(async(req,res)=>{
     
     req.flash("success","review deleted");
     res.redirect(`/listings/${id}`);
-    });
+    }) ;

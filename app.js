@@ -87,7 +87,7 @@ app.use((req,res,next)=>{
     res.locals.currUser=req.user;
     // console.log(res.locals.success);
     next();
-})
+});
 
 
 

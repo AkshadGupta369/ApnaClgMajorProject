@@ -57,7 +57,7 @@ module.exports.create=(async(req,res,next)=>{
 //    if(!newListing.description){
 //     throw new ExpressError(400,"description is missing");
 //    }
-//    if(!newListing.location){
+//    if(!newListing.location){ /
 //     throw new ExpressError(400,"locaation is missing");
 //    }
    newListing.owner=req.user._id;

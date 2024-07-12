@@ -185,6 +185,6 @@
     background: none;
   }
   .starability-basic > label::before, .starability-basic > label::after {
-    display: none;
+    display: none ;
   }
 }
